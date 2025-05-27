@@ -1,3 +1,5 @@
-export default function Home() {
-  return <></>;
+import ChronoFlowApp from '@/components/chronoflow/ChronoFlowApp';
+
+export default function HomePage() {
+  return <ChronoFlowApp />;
 }
